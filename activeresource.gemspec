@@ -21,9 +21,9 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 1.9.3'
 
-  s.add_dependency('activesupport', '>= 4.0.0.beta1')
-  s.add_dependency('activemodel',   '>= 4.0.0.beta1')
-  s.add_dependency('rails-observers', '~> 0.1.1')
+  s.add_dependency('activesupport', '>= 4.1.0.beta')
+  s.add_dependency('activemodel',   '>= 4.1.0.beta')
+#  s.add_dependency('rails-observers', '~> 0.1.1')
 
   s.add_development_dependency('rake')
   s.add_development_dependency('mocha', '>= 0.13.0')
